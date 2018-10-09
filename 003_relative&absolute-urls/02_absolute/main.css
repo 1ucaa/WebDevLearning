@@ -1,0 +1,4 @@
+/*LARGE border around all images*/
+img {
+    border: 40px groove orange;
+}
