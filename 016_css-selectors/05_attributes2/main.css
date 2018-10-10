@@ -1,0 +1,9 @@
+body {
+    font-size: 36px;
+    text-align: center;
+}
+
+/*doesn't include quotations*/
+[target=_blank] {
+    color: red;
+}

@@ -1,0 +1,49 @@
+/*Divs are block level and steal the whole line and height of where it is displayed*/
+div {
+   width: 200px;
+   height: 200px;
+   border: 1px solid red;
+   border-radius: 45%;
+   background-image: url("../003_relimg/HEaLtH.jpg");
+    background-size: cover;
+    /*display: none; <-- Displays nothing*/
+    /*Displays the divs as if not a block element:*/
+    display: inline-block;
+
+}
+
+/*Not block level*/
+img {
+    height:300px;
+    width:300px;
+    border: 7px groove royalblue;
+    border-radius: 58%;
+    /*Padding puts space between img and border*/
+    padding: 20px;
+    /*Margin puts space between border and other elements*/
+    margin:20px;
+}
+.onetab {
+    height:300px;
+    width:300px;
+    border: 7px dashed royalblue;
+    border-radius: 58%;
+    padding: 20px;
+    margin:20px;
+}
+.twotab {
+    height:300px;
+    width:300px;
+   border: 7px dot-dot-dash royalblue;
+    border-radius: 58%;
+    padding: 20px;
+    margin:20px;
+}
+.threetab {
+    height:300px;
+    width:300px;
+   border: 7px dotted royalblue;
+    border-radius: 58%;
+    padding: 20px;
+    margin:20px;
+}

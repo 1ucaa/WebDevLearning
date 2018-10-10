@@ -1,0 +1,26 @@
+/*selects all divs on index.html*/
+div {
+    /*Divs default to full browser size, width goes across browser*/
+    /*height goes from bottom to top*/
+   width: 100px;
+   height: 100px;
+   border: 1px solid red;
+}
+
+/*selects all images on page*/
+img {
+    border: 30px groove royalblue;
+}
+
+/*CLASS SELECTORS IN A RULE SET:*/
+/*class selectors override img rule set*/
+.onetab {
+    border: 30px groove blue;
+}
+.twotab {
+    border: 10px groove blue;
+}
+.threetab {
+    border: 10px groove teal;
+}
+

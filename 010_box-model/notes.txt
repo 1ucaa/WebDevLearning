@@ -1,0 +1,15 @@
+BOX MODEL:
+
+All content is in a box.
+
+the content is in the center of it all.
+"padding" is between the content and the border.
+"border" is around the content and padding.
+"margin" is around the content, padding, and border.
+
+problem:
+    When changing size of borders, padding, and margin
+    ... pushes others into other locations
+
+solution:
+    box-sizing: border-box property, next section...

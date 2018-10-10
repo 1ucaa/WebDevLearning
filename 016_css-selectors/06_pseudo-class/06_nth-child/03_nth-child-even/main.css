@@ -1,0 +1,13 @@
+body {
+    font-size: 36px;
+}
+
+/*selects first child as an li*/
+li:nth-child(even) {
+    color: red;
+}
+
+/*similar, as both uls are children to body*/
+ul:nth-child(even) {
+    background-color: yellow;
+}

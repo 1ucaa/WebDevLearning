@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ex: border-box</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<h1>HERE'S THE PROBLEM</h1>
+
+<div>
+    <p>no padding</p>
+</div>
+
+<div class="pad-me">
+    <p>padding</p>
+</div>
+
+<h1>SOLUTION:</h1>
+
+<div class="bb">
+    <p>
+        no padding
+    <br>box-sizing: border-box;
+    </p>
+</div>
+
+<div class="pad-me bb">
+    <p>
+        padding
+    <br>with border-box
+    </p>
+</div>
+
+</body>
+</html>

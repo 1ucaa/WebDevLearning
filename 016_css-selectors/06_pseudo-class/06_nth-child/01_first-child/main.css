@@ -1,0 +1,13 @@
+body {
+    font-size: 36px;
+}
+
+/*selects first child as an li*/
+li:first-child {
+    color: red;
+}
+
+/*similar, as both uls are children to body*/
+ul:first-child {
+    background-color: yellow;
+}

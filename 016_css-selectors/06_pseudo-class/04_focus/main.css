@@ -1,0 +1,8 @@
+/*focus typically for forums*/
+body {
+    font-size: 400px;
+}
+
+a:focus {
+    color: red;
+}

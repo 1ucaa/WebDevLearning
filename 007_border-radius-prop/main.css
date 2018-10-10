@@ -1,0 +1,30 @@
+/*selects all divs on index.html*/
+div {
+    /*Divs default to full browser size, width goes across browser*/
+    /*height goes from bottom to top*/
+   width: 200px;
+   height: 200px;
+   border: 1px solid red;
+   border-radius: 45%;
+   background-image: url("../003_relimg/HEaLtH.jpg");
+    background-size: cover;
+    /*background-repeat: no-repeat;*/
+}
+
+/*selects all images on page*/
+img {
+   border: 30px groove royalblue;
+    border-radius: 58%;
+}
+.onetab {
+   border: 30px dashed royalblue;
+    border-radius: 58%;
+}
+.twotab {
+   border: 30px dot-dot-dash royalblue;
+    border-radius: 58%;
+}
+.threetab {
+   border: 30px dotted royalblue;
+    border-radius: 58%;
+}

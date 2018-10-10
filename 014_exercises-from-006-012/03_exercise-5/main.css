@@ -1,0 +1,9 @@
+div {
+    width: 200px;
+    height: 400px;
+    background-image: url(/WebDevLearning/003_relimg/HEaLtH.jpg);
+    background-size:cover;
+    /*background-repeat: no-repeat; Redundant for my image*/
+    border:25px groove green;
+    border-radius:50%;
+}

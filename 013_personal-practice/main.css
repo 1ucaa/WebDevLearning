@@ -1,0 +1,6 @@
+div {
+    /*Will remain half of the browser*/
+    width: 50%;
+    /*Height does not work in the same way*/
+    border: 13px solid black;
+}

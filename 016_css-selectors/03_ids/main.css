@@ -1,0 +1,6 @@
+/*difference between classes and ids: ids can only be used once*/
+/*targets with the # symbol*/
+#promote {
+    color: red;
+    font-weight: bold;
+}
