@@ -1,0 +1,30 @@
+html {
+    background-color: #00539f;
+}
+
+body {
+    box-sizing: border-box;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 60%;
+    margin: 0 auto;
+    background-color: #00C957;
+    border: 5px solid black;
+}
+
+img {
+    display: block;
+    /*Now to center*/
+    margin: 8px auto 0;
+    border-radius: 100%;
+    border: 10px ridge gold;
+    width: 80%;
+}
+
+#primary {
+    color: #0266C8;
+}
+
+#secondary {
+    color: #F90101;
+}

@@ -1,0 +1,21 @@
+a {
+    display: block;
+    text-align: center;
+    font-size: 42px;
+}
+
+a:link {
+    color: mediumblue;
+}
+
+a:visited {
+    color: brown;
+}
+
+a:hover {
+    color: darkgreen;
+}
+
+a:active {
+    color: orange;
+}

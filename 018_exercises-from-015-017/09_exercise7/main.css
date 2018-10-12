@@ -1,0 +1,5 @@
+/*immediate p children of div tags*/
+
+div > p {
+    color: red;
+}

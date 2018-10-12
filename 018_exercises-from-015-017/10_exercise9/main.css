@@ -1,0 +1,5 @@
+/*immediate p sibling of div tags*/
+
+div ~ p {
+    color: red;
+}

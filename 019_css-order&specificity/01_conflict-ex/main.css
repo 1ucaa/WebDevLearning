@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+}
+
+.cowboy {
+    color: green;
+}
+
+.emphasize {
+    color: yellow;
+}
+
+
+/*#emph has the highest specificity*/
+#emph {
+    color: blue;
+}
+
+/*It seems that id overrides class which overrides an element rule-set*/

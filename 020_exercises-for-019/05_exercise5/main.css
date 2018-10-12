@@ -1,0 +1,7 @@
+.winner {
+    color: limegreen;
+}
+
+[target=_blank] {
+    color: red;
+}

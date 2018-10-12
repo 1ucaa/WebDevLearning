@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+    border: 1px solid black;
+    font-style: italic;
+}
+
+/* The last one wins so cowboy loses.
+other h1 declarations remain stagnant. */
+
+.cowboy {
+    color: green;
+}
+
+.emphasize {
+    color: yellow;
+}
+
+/*#emph {*/
+    /*color: blue;*/
+/*}*/
+

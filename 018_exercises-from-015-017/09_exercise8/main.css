@@ -1,0 +1,5 @@
+/*all p siblings following div tags*/
+
+div + p {
+    color: red;
+}
