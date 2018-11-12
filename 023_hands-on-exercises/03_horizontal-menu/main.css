@@ -1,0 +1,21 @@
+html {
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    /*border: 2px solid red;*/
+    border-radius: 50px;
+    display: inline-block;
+    width: 17vw;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid black;
+}
+
+li:hover {
+    background-color: burlywood;
+}

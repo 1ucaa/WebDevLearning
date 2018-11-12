@@ -1,0 +1,26 @@
+div {
+    width: 100px;
+    height: 50px;
+    /*width: 15rem;*/
+    /*height: 7rem;*/
+    border: 2px solid black;
+    border-radius: 38%;
+    margin: 1px;
+    display: inline-block;
+}
+
+.drb1 {
+    background-color: red;
+}
+
+.drb2 {
+    background-color: blue;
+}
+
+.drb3 {
+    background-color: yellow;
+}
+
+.drb4 {
+    background-color: green;
+}
