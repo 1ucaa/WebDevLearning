@@ -1,0 +1,25 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: 700px;
+    border: 2px solid red;
+}
+
+div {
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    border: 2px solid blue;
+    margin: 1em;
+}
+
+div:hover {
+    background-color: lightgrey;
+    border: 2px solid lightblue;
+}
+
+.three {
+    align-self: flex-start;
+}

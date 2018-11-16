@@ -1,0 +1,23 @@
+body {
+    display: flex;
+}
+
+div {
+    height: 100px;
+    /*divs want to be this width.*/
+    width: 400px;
+    /*flex-grow: 1;*/
+    border: 2px solid black;
+    flex-basis: 33%;
+    /*steals width:*/
+    /*flex-basis: auto;*/
+}
+
+.flex1 {
+    flex-shrink: 1;
+}
+
+.flex2 {
+    flex-shrink: 2;
+    /*width: 300px;*/
+}

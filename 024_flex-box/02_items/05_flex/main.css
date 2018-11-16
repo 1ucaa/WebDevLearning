@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    height: 600px;
+    border: solid hotpink;
+}
+
+div {
+    height: 100px;
+    width: 150px;
+    margin: 0.5em;
+    /*flex-grow flex-shrink, flex-basis*/
+    flex: 0 1 auto;
+    /*ZERO MEANS NO GROW. Same with shrink*/
+    background-color: #4d5699;
+    border: 2px solid #0266C8;
+}

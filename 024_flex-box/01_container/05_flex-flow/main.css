@@ -1,0 +1,11 @@
+body {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+div {
+    width: 200px;
+    height: 100px;
+    background-color: grey;
+    border: 2px dashed blue;
+}

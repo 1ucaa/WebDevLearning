@@ -1,0 +1,2 @@
+Whatever your flex-direction is set to,
+that is your primary axis.

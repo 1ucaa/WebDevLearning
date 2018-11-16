@@ -1,0 +1,19 @@
+body {
+    display: flex;
+    flex-flow: column wrap;
+    border: 2px solid hotpink;
+    height: 700px;
+}
+
+div {
+    width: 100px;
+    height: 50px;
+    background-color: gray;
+    border: 2px solid blue;
+    margin: 0.5rem;
+    order: 6;
+}
+
+.i {
+    order: 1;
+}

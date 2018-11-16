@@ -1,0 +1,16 @@
+body {
+    flex-flow: row nowrap;
+}
+
+ul {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    width: auto;
+    flex: 1 0 auto;
+}
+
+main {
+    width: auto;
+    flex: 8 1 auto;
+}

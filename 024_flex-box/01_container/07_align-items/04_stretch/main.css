@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    height: 600px;
+    border: 2px dashed hotpink;
+    /*Children must not have height with align-items: stretch;*/
+    align-items: stretch;
+    justify-content: center;
+    padding: 5px;
+}
+
+div {
+    width: 100px;
+    /*height: 50px;*/
+    box-sizing: border-box;
+    background-color: grey;
+    border: 2px solid #4d5699;
+    text-align: center;
+    padding-top: 10px;
+    margin: 2px;
+}
+
+div:hover {
+    background-color: lightgrey;
+    border: 2px solid cornflowerblue;
+}

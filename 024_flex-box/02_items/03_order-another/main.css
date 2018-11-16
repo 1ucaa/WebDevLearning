@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 5px;
+    justify-content: center;
+    height: 500px;
+    border: 5px solid black;
+}
+
+div {
+    width: 150px;
+    height: 75px;
+    text-align: center;
+    background-color: #4d5699;
+    border: 2px solid mediumblue;
+    margin: 0 4px 0 4px;
+}
+
+div:hover {
+    height: auto;
+    align-self: stretch;
+}
+
+.uno {
+    order: 3;
+}
+
+.dos {
+    order: 1;
+}
+
+.tres {
+    order: 2;
+}
