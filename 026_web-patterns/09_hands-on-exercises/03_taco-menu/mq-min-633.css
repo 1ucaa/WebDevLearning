@@ -1,0 +1,12 @@
+ul {
+    flex-flow: column;
+    justify-content: space-evenly ;
+}
+
+nav {
+    width: 20%;
+}
+
+main {
+    width: 80%;
+}

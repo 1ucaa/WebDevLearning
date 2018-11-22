@@ -1,0 +1,39 @@
+html, body, div {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    /*formatting*/
+    border: 2px solid #F90101;
+    padding: 0;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 110px;
+}
+
+.c1 {
+    background-color: darkblue;
+}
+
+.c2 {
+    background-color: #0266C8;
+}
+
+.c3 {
+    background-color: cornflowerblue;
+}
+
+.c4 {
+    background-color: lightsteelblue;
+}
+
+.c5 {
+    background-color: lightcyan;
+}

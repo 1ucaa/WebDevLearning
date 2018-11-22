@@ -1,0 +1,9 @@
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+a {
+    border-bottom: none;
+    padding: 8px 20px;
+}

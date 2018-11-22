@@ -1,0 +1,16 @@
+body {
+    width: 700px;
+    justify-content: center;
+}
+
+.c1 {
+    width: 30%
+}
+
+.c2, .c3 {
+    width: 100%;
+}
+
+.c4 {
+    width: 70%
+}

@@ -1,0 +1,12 @@
+ul {
+    background-color: #00a7e5;
+}
+
+a {
+    background-color: #00a7e5;
+    color: white;
+}
+
+a:hover {
+    background-color: royalblue;
+}
