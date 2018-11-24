@@ -1,0 +1,39 @@
+html, body, header, nav, ul, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    display: unset;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url("img/New-York-from-the-bridge.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    background-color: #2d4f72;
+    border-bottom: 3px solid #081c28;
+    position: fixed;
+    width: 100%;
+}
+
+a {
+    display: block;
+    padding: 0.25em 3.63em;
+    text-decoration: none;
+    font-weight: 700;
+    color: #be9e3c;
+}
+
+a:hover, a:active {
+    background-color: #081c28;
+}
