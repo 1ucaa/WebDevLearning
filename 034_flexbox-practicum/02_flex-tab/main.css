@@ -1,0 +1,36 @@
+
+html, body, nav, ul, li {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    border-bottom: 2px solid darkgrey;
+    flex: 1 1;
+}
+
+li {
+    font-family: sans-serif;
+    padding: 24px 1.7em;
+    font-size: 3vw;
+    cursor: pointer;
+    border-bottom: 0.2rem solid transparent;
+}
+
+li:hover {
+    /*padding: 24px 1.7em 21px;*/
+    border-bottom: 0.2rem solid #518cff;
+}
+
+

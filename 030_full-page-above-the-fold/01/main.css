@@ -37,7 +37,8 @@ html, body, section, div, article, h1, h2, h3, span {
 .idx-center > h1, .idx-center > h2, .idx-center > h3 {
     border-radius: 15px;
     padding: 0 7px;
-    background-color: rgba(20, 20, 200, 0.45);
+    /*background-color: rgba(20, 20, 200, 0.45);*/
+    background-color: rgba(213, 135, 33, 0.45);
 }
 
 h1 {
@@ -72,9 +73,9 @@ h3 {
     border-image-repeat: initial;
     border-width: 1px;
     border-style: solid;
-    border-color: #394e8a;
+    border-color: #d58721;
     border-radius: 3px;
-    box-shadow: 1px 1px #37376f;
+    box-shadow: 1px 1px #b3711c;
     /*text styling*/
     font-weight: 700;
     text-decoration: none;
@@ -82,15 +83,15 @@ h3 {
     /*positioning*/
     position: relative;
     top: 94px;
-    background-color: rgba(20, 20, 200, 0.58);
+    background-color: rgba(213, 135, 33, 0.58);
 }
 
 .idx-center > button:hover {
-    background-color: rgba(40, 40, 240, 0.58);
+    background-color: rgba(212, 134, 33, 0.58);
 }
 
 .idx-center > button:active {
-    background-color: rgba(40, 40, 240, 0.58);
+    background-color: rgba(212, 134, 33, 0.58);
     position: relative;
     left: 1px;
     top: 95px;

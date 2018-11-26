@@ -1,0 +1,157 @@
+html, body, section, div, article, h1, h2, h3, span, nav, img, span {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 27px;
+    background-color: rgba(0,0,0,0.67);
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.fa-codepen {
+    position: relative;
+    bottom: 3px;
+}
+
+.fa-codepen:hover, .fa-codepen:active, .home:hover, .home:active, .bookmark:hover, .bookmark:active, .edit:hover, .edit:active, .settings:hover, .settings:active {
+    color: #f0b806;
+}
+
+header div {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    align-self: flex-start;
+    height: 27px;
+    width: 25rem;
+    padding: 2px 5px 3px;
+    font-family: 'Orbitron',serif;
+    font-weight: 300;
+    color: antiquewhite;
+}
+
+header span {
+    position: relative;
+    right: 15px;
+    bottom: 4px;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    height: 27px;
+    width: 180px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+nav img {
+    height: 23px;
+    color: antiquewhite;
+    padding: 4px;
+}
+
+#settings {
+    fill: #ffffff;
+}
+
+#idx-atf {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    /*background*/
+    background-color: #727272;
+    background-image: url("img/boston.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-origin: border-box;
+    background-attachment: fixed;
+    /*formatting*/
+    height: 100vh;
+    width: 100%;
+    color: rgb(255, 249, 212);
+}
+
+.idx-center {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    /*formatting*/
+    font-family: 'Playfair Display',sans-serif;
+}
+
+.idx-center > h1, .idx-center > h2, .idx-center > h3 {
+    border-radius: 15px;
+    padding: 0 7px;
+    /*background-color: rgba(20, 20, 200, 0.45);*/
+    /*background-color: rgba(213, 135, 33, 0.45);*/
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    position: relative;
+    top: 35px;
+}
+
+h2 {
+    position: relative;
+    top: 86px;
+    font-size: 1.16rem;
+}
+
+h3 {
+    text-align: center;
+    position: relative;
+    top: 86px;
+    font-weight: 200;
+}
+
+.idx-center > button {
+    padding: 4px 11px;
+    /*       FORMATTING       */
+    /*text color*/
+    /*color: rgb(71, 57, 116);*/
+    color: #fff3da;
+    /*border styling*/
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-repeat: initial;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #fdf2d9;
+    border-radius: 3px;
+    /*text styling*/
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    /*positioning*/
+    position: relative;
+    top: 104px;
+    background-color: transparent;
+}
+
+.idx-center > button:hover {
+    border-color: rgb(246, 184, 15);
+    color: rgb(246, 184, 15);
+}
+
+.idx-center > button:active {
+    border-color: rgb(242, 138, 9);
+    color: rgb(242, 138, 9);
+}
+
+.idx-center > button:focus {
+    outline: 0;
+}
