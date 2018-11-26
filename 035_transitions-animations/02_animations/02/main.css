@@ -1,0 +1,36 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    height: 15em;
+    width: 15em;
+    fill: blue;
+}
+
+svg {
+    animation-name: rotation;
+    animation-duration: 900ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /*animation-direction: alternate;*/
+    /* ALTERNATE DOES THE SAME THING AS WHAT'S HAPPENING NOW WITHOUT HAVING TO PUT IN EXTRA....*/
+    /*animation-timing-function: ease-in-out;*/
+}
+
+@keyframes rotation {
+    0% { transform: rotate(0deg); }
+    /*25% { fill: green; }*/
+    100% { transform: rotate(360deg); }
+    /*75% { fill: green; }*/
+    /*100% { fill: blue; }*/
+}

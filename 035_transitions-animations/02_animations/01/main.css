@@ -1,0 +1,35 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg {
+    height: 15em;
+    width: 15em;
+    fill: blue;
+}
+
+svg {
+    animation-name: change-fill;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* ALTERNATE DOES THE SAME THING AS WHAT'S HAPPENING NOW WITHOUT HAVING TO PUT IN EXTRA....*/
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes change-fill {
+    0% { fill: blue; }
+    /*25% { fill: green; }*/
+    50% { fill: orange; }
+    /*75% { fill: green; }*/
+    /*100% { fill: blue; }*/
+}
