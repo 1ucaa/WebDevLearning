@@ -1,0 +1,41 @@
+html, body. div {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.atf {
+    height: 96.625vh;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: lightslategray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.btf {
+    margin: 0 5% 5px;
+    border: 2px solid black;
+    /*height: 15vh;*/
+    height: 114px;
+}
+
+.loading {
+    height: 45px;
+    position: relative;
+    bottom: 175px;
+    right: 320px;
+
+    animation-name: spinning;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spinning {
+    0% { transform:rotate(0deg); }
+    100% { transform:rotate(360deg); }
+}

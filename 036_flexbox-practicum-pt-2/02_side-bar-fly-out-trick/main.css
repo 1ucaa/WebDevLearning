@@ -1,0 +1,118 @@
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+#atf {
+    height: 100vh;
+    width: 100%;
+    background-image: url("img/wave-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: unset;
+    z-index: 1;
+    position: fixed;
+    /*top: 38px;*/
+    height: 38px;
+    width: 100vw;
+    box-sizing: border-box;
+    background-color: rgba(7, 49, 65, 0.75);
+}
+
+input[type="checkbox"] {
+    /*toggle*/
+    display: none;
+}
+
+label {
+    font-weight: 600;
+    cursor: pointer;
+    background-color: transparent;
+    color: #efb9ad;
+    border-radius: 0.25em;
+    position: fixed;
+    top: 0.3rem;
+    left: 1.9rem;
+    margin: 3px 0;
+    padding: 3px 5px;
+    z-index: 2;
+}
+
+#sidebar {
+    /*toggle*/
+    position: fixed;
+    left: -30rem;
+    top: 38px;
+    /*formatting*/
+    /*height: 482px;*/
+    height: 100vh;
+    width: 150px;
+    background-color: rgba(7, 49, 65, 0.75);
+    /*border-right: 2px solid #72afe0;*/
+    /*border-bottom: 2px solid #72aedf;*/
+    /*border-radius: 0 0 0.5em 0;*/
+    /*transition*/
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    transition-duration: 800ms;
+}
+
+input[type="checkbox"]:checked ~ #sidebar {
+    /*toggle*/
+    left: -0.45rem;
+}
+
+label:hover {
+    animation-name: menu-fade;
+    animation-duration: 1s;
+    background-color: #eeb8ac;
+    color: #27546b;
+}
+
+@keyframes menu-fade {
+    0% { background-color: transparent;
+         color: #edb7ab; }
+    100% { background-color: #eeb8ac;
+           color: #27546b; }
+}
+
+label:active {
+    color: #073141;
+}
+
+ol {
+    margin-top: 0.625rem;
+    margin-left: 0.5rem;
+    padding:0;
+    list-style: none;
+}
+
+li {
+    text-align: center;
+    padding-bottom: 4px;
+    padding-top: 18px;
+    border-bottom: 2px solid transparent;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+li:hover {
+    border-bottom: 2px solid #73aee0;
+}
+
+a {
+    text-decoration: none;
+    color: #eeb8ac
+}
+
+#btf {
+    box-sizing: border-box;
+    border: solid black;
+    background-image: linear-gradient( #0b1b28, #f3ada3, #86bbe6 );
+    height: 100vh;
+    width: 100%;
+}

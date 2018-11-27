@@ -1,8 +1,10 @@
 html, body, div {
-    padding: 0;
-    border: 0;
     margin: 0;
     box-sizing: border-box;
+}
+
+div {
+    display: inline-block;
 }
 
 a {
@@ -11,4 +13,31 @@ a {
 
 ul, ol {
     list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    align-items: unset;
+    border: 2px solid black;
+    background-color: whitesmoke;
+    display: inline-block;
+}
+
+button:focus {
+    outline: unset;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h4, h5, h6 {
+    font-size: 1.17em;
 }
